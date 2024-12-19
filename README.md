@@ -37,6 +37,7 @@ This is a full-stack portfolio tracker application that allows users to manage t
 - **Deployment**: Heroku
 
 ---
+### **Project Structure**
 portfolio-tracker/
 ├── frontend/                          # Frontend React app
 │   ├── src/
@@ -47,7 +48,7 @@ portfolio-tracker/
 │   │   ├── App.js                      # Main app component
 │   │   ├── index.js                    # React entry point
 │   │   ├── styles.css                  # CSS styling
-|   └──package.json                     # Node.js package configuration (for the frontend)
+│   └── package.json                    # Node.js package configuration (for the frontend)
 ├── backend/                           # Backend Java Spring Boot application
 │   ├── src/
 │   │   ├── main/
@@ -66,9 +67,9 @@ portfolio-tracker/
 │   │   │   │   ├── application.properties
 │   │   │   │   ├── data.sql
 │   │   │   │   └── schema.sql
-|   └── pom.xml                          # Maven configuration (for the backend)
-|   └── applications.properties.example  #Properties examples
-└── test/
+│   └── pom.xml                          # Maven configuration (for the backend)
+│   └── application.properties.example   # Properties example for configuration
+└── test/                                # Test folder
     └── java/
         └── com/
             └── example/
