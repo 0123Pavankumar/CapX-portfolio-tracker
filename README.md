@@ -38,22 +38,4 @@ This is a full-stack portfolio tracker application that allows users to manage t
 
 ---
 
-## Project Structure
 
-```plaintext
-portfolio-tracker/
-├── frontend/               # React frontend
-│   ├── public/             # Public assets
-│   ├── src/                # Source files
-│   │   ├── components/     # React components
-│   │   ├── services/       # API service calls
-│   │   └── App.js          # Main React component
-│   ├── .env.example        # Example environment variables
-│   └── package.json        # Frontend dependencies
-├── backend/                # Spring Boot backend
-│   ├── src/                
-│   │   ├── main/           # Application source
-│   │   └── test/           # Test cases
-│   ├── pom.xml             # Maven dependencies
-│   └── application.properties.example # Example backend configuration
-└── README.md               # Documentation
