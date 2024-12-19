@@ -37,5 +37,44 @@ This is a full-stack portfolio tracker application that allows users to manage t
 - **Deployment**: Heroku
 
 ---
+portfolio-tracker/
+├── frontend/                          # Frontend React app
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Dashboard.js            # Portfolio dashboard
+│   │   │   ├── AddEditStockForm.js     # Form for adding/editing stocks
+│   │   │   ├── StockList.js            # List of stocks
+│   │   ├── App.js                      # Main app component
+│   │   ├── index.js                    # React entry point
+│   │   ├── styles.css                  # CSS styling
+|   └──package.json                     # Node.js package configuration (for the frontend)
+├── backend/                           # Backend Java Spring Boot application
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── portfolio/
+│   │   │   │               ├── controller/      # REST APIs
+│   │   │   │               ├── service/         # Business logic
+│   │   │   │               ├── repository/      # Data access
+│   │   │   │               ├── model/           # Entity classes
+│   │   │   │               ├── dto/             # Data Transfer Objects
+│   │   │   │               ├── exception/       # Custom exceptions
+│   │   │   │               └── PortfolioTrackerApplication.java
+│   │   │   ├── resources/
+│   │   │   │   ├── application.properties
+│   │   │   │   ├── data.sql
+│   │   │   │   └── schema.sql
+|   └── pom.xml                          # Maven configuration (for the backend)
+|   └── applications.properties.example  #Properties examples
+└── test/
+    └── java/
+        └── com/
+            └── example/
+                └── portfolio/
+                    ├── controller/      # Controller tests
+                    ├── service/         # Service tests
+                    └── PortfolioTrackerApplicationTests.java
 
 
