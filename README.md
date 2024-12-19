@@ -37,7 +37,9 @@ This is a full-stack portfolio tracker application that allows users to manage t
 - **Deployment**: Heroku
 
 ---
-### **Project Structure**
+# Project Structure
+
+```plaintext
 portfolio-tracker/
 ├── frontend/                          # Frontend React app
 │   ├── src/
@@ -77,5 +79,6 @@ portfolio-tracker/
                     ├── controller/      # Controller tests
                     ├── service/         # Service tests
                     └── PortfolioTrackerApplicationTests.java
+
 
 
