@@ -61,7 +61,6 @@ portfolio-tracker/
 │   │   │   │               ├── controller/      # REST APIs
 │   │   │   │               ├── service/         # Business logic
 │   │   │   │               ├── repository/      # Data access
-│   │   │   │               ├── model/           # Entity classes
 │   │   │   │               ├── dto/             # Data Transfer Objects
 │   │   │   │               ├── exception/       # Custom exceptions
 │   │   │   │               └── PortfolioTrackerApplication.java
